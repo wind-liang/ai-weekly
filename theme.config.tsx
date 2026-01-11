@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/wind-liang/ai-weekly',
   footer: {
-    text: '跟上 AI © 2025',
+    text: '跟上 AI © 2026',
   },
   head: (
     <>
