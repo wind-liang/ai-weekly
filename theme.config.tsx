@@ -20,7 +20,7 @@ const config: DocsThemeConfig = {
       <meta name="keywords" content="AI, 人工智能, 机器学习, 深度学习, 文章, 资源" />
       <meta name="author" content="AI Articles Collection" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://your-domain.vercel.app" />
+      <link rel="canonical" href="https://ai.windliang.wang/" />
     </>
   ),
   sidebar: {
