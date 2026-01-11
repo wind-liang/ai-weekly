@@ -4,9 +4,9 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>跟上 AI</span>,
   project: {
-    link: 'https://github.com/yourusername/abbie-tools',
+    link: 'https://github.com/wind-liang/ai-weekly',
   },
-  docsRepositoryBase: 'https://github.com/yourusername/abbie-tools',
+  docsRepositoryBase: 'https://github.com/wind-liang/ai-weekly',
   footer: {
     text: '跟上 AI © 2025',
   },
@@ -30,11 +30,10 @@ const config: DocsThemeConfig = {
     placeholder: '搜索文章...',
   },
   editLink: {
-    text: '在 GitHub 上编辑此页',
+    component: null,
   },
   feedback: {
-    content: '问题反馈',
-    labels: 'feedback',
+    content: null,
   },
   useNextSeoProps() {
     return {
