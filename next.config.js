@@ -8,6 +8,5 @@ module.exports = withNextra({
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '' : '',
   trailingSlash: true,
 })
