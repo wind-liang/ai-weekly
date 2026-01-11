@@ -21,6 +21,19 @@ const config: DocsThemeConfig = {
       <meta name="author" content="AI Articles Collection" />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href="https://ai.windliang.wang/" />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?566a64844e91161b73293819cf91f7a7";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+          `,
+        }}
+      />
     </>
   ),
   navbar: {
