@@ -37,50 +37,50 @@ const config: DocsThemeConfig = {
     </>
   ),
   navbar: {
-    extraContent: (
-      <>
-        <a
-          href="https://coursesub.top/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            marginRight: '1rem',
-            color: '#666',
-            textDecoration: 'none',
-            fontSize: '0.875rem',
-            cursor: 'pointer',
-            transition: 'color 0.2s',
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.25rem',
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.color = '#0070f3';
-            e.currentTarget.style.textDecoration = 'underline';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.color = '#666';
-            e.currentTarget.style.textDecoration = 'none';
-          }}
-        >
-          极客时间优惠
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            focusable="false"
-            x="0px"
-            y="0px"
-            viewBox="0 0 100 100"
-            width="15"
-            height="15"
-            style={{ display: 'inline-block', verticalAlign: 'middle' }}
-          >
-            <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
-            <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon>
-          </svg>
-        </a>
-      </>
-    ),
+    // extraContent: (
+    //   <>
+    //     <a
+    //       href="https://coursesub.top/"
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //       style={{
+    //         marginRight: '1rem',
+    //         color: '#666',
+    //         textDecoration: 'none',
+    //         fontSize: '0.875rem',
+    //         cursor: 'pointer',
+    //         transition: 'color 0.2s',
+    //         display: 'inline-flex',
+    //         alignItems: 'center',
+    //         gap: '0.25rem',
+    //       }}
+    //       onMouseEnter={(e) => {
+    //         e.currentTarget.style.color = '#0070f3';
+    //         e.currentTarget.style.textDecoration = 'underline';
+    //       }}
+    //       onMouseLeave={(e) => {
+    //         e.currentTarget.style.color = '#666';
+    //         e.currentTarget.style.textDecoration = 'none';
+    //       }}
+    //     >
+    //       极客时间优惠
+    //       <svg
+    //         xmlns="http://www.w3.org/2000/svg"
+    //         aria-hidden="true"
+    //         focusable="false"
+    //         x="0px"
+    //         y="0px"
+    //         viewBox="0 0 100 100"
+    //         width="15"
+    //         height="15"
+    //         style={{ display: 'inline-block', verticalAlign: 'middle' }}
+    //       >
+    //         <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
+    //         <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon>
+    //       </svg>
+    //     </a>
+    //   </>
+    // ),
   },
   sidebar: {
     defaultMenuCollapseLevel: 1,
